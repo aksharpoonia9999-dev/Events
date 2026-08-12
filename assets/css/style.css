@@ -17,6 +17,7 @@ header {
   font-size: clamp(24px, 1.36vw + 19.6px, 36px);
   line-height: 135%;
   letter-spacing: 0%;
+  max-width: 316px;
 }
 .logo-dark {
   color: var(--color-blue);
@@ -125,7 +126,9 @@ header {
   right: 32%;
   transform-origin: center bottom;
 }
-
+.paragraph {
+  margin-bottom: 0;
+}
 .logout-btn .blob-2 {
   bottom: -50px;
   left: 32%;
@@ -245,7 +248,9 @@ header {
   position: relative;
   overflow: hidden;
   isolation: isolate;
+  margin-top: clamp(16px, calc(10.286px + 1.786vw), 32px);
   max-width: 134px;
+  height: 46px;
   padding: 11px 28px;
   border: 2px solid var(--color-blue);
   border-radius: 999px;
